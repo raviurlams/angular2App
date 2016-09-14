@@ -1,0 +1,85 @@
+.sample-app-content {
+  font-family: Verdana;
+}
+.sample-app-content h1 {
+  color: #999;
+  font-size: 3em;
+}
+.sample-app-content h2 {
+  color: #990000;
+  font-size: 2em;
+}
+.sample-app-content p,
+.sample-app-content nav {
+  padding: 30px;
+}
+.sample-app-content li,
+.sample-app-content p {
+  font-size: 1.2em;
+}
+.sample-app-content li {
+  font-family: Consolas;
+}
+.sample-app-content nav a {
+  display: inline-block;
+  margin-right: 15px;
+}
+.sample-app-content input,
+.sample-app-content button {
+  padding: 5px;
+  font-size: 1em;
+  outline: none;
+}
+
+.fa-trash.btn-danger, .fa-edit.btn-success, .fa-plus {
+  min-width: 35px;
+}
+
+
+
+@-moz-keyframes fadeOut {
+    from {opacity:1;}
+    to {opacity:0.1;}
+}
+
+@-webkit-keyframes fadeOut {
+    from {opacity:1;}
+    to {opacity:0.1;}
+}
+
+@keyframes fadeOut {
+    from {opacity:1;}
+    to {opacity:0.1;}
+}
+
+.df-notification {
+  position: fixed;
+  display: inline-block;
+  padding: 20px;
+  top: 30px;
+  right: 30px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: white;
+
+  -webkit-animation: fadeOut 5000ms;
+  -moz-animation: fadeOut 5000ms;
+}
+
+
+.df-notification.success {
+  background-color: #51A351;
+}
+
+.df-notification.error {
+  background-color: #BD362F; 
+}
+
+.df-notification.warning {
+  background-color: #F9A937;
+}
+
+.df-notification.info {
+  background-color: #58ABC3;
+}
