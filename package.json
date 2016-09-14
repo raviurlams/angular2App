@@ -1,10 +1,7 @@
 {
   "name": "angular2-sdk",
   "version": "0.0.0",
-  "description": "Sample dreamfactory addressbook in angular2",
-  "repository": {
-    "url": "https://github.com/dreamfactorysoftware/angular2-sdk"
-  },
+  "description": "Sample addressbook in angular2 using dreamfactory API",  
   "scripts": {
     "build.dev": "gulp build.dev",
     "build.dev.watch": "gulp build.dev.watch",
@@ -20,7 +17,7 @@
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start"
   },
-  "author": "Andy Rai <javascriptboss99>",
+  "author": "Ravindra Urlam",
   "devDependencies": {
     "angular2-hot-loader": "0.0.16",
     "async": "^1.4.2",

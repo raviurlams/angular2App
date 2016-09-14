@@ -9,9 +9,9 @@ Address Book for Angular 2
 
 ##Run project
 ```bash
-git clone --depth 1 https://github.com/dreamfactorysoftware/angular2-sdk.git
-cd angular2-sdk/angular2-sdk
-# paste your dsp_instance_url and app_key in app/config/config.ts
+cd cd angular2App
+# paste your dsp_instance_url and app_key in app/config/config.ts --
+
 # install the project's dependencies
 npm install
 # watches your files and uses livereload by default
